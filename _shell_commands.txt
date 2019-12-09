@@ -1,0 +1,7 @@
+from main_website.models import Post
+
+from django.contrib.auth.models import User
+
+User.objects.all()
+
+User.objects.filter(username="Anirudh")
